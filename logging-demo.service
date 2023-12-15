@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=brian
-ExecStart=/usr/bin/env php /path/to/server.php
+ExecStart=/home/brian/miniforge3/envs/logging-demo/bin/python /home/brian/logging-demo/logging_demo/main
 
 [Install]
 WantedBy=multi-user.target
