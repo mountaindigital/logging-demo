@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=brian
-ExecStart=/home/brian/miniforge3/envs/logging-demo/bin/python /home/brian/logging-demo/logging_demo/main
+ExecStart=/home/brian/miniforge3/envs/logging-demo/bin/python /home/brian/logging-demo/logging_demo/main.py
 
 [Install]
 WantedBy=multi-user.target
