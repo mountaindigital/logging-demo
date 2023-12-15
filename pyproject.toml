@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "logging-demo"
+version = "0.1.0"
+description = ""
+authors = ["Brian D'Ostilio <brian@mountaindigital.io>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+google-cloud-logging = "^3.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
