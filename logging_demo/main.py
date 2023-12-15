@@ -11,7 +11,7 @@ def main():
     while True:
         now = datetime.datetime.now()
         logging.info(f'VM is running at {now}')
-        time.sleep(60 * 10)
+        time.sleep(60)
 
 if __name__ == '__main__':
     main()
